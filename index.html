@@ -428,13 +428,13 @@
                 <div class="form-group">
                     <label for="currency" data-translate="currencyLabel">العملة:</label>
                     <select id="currency" class="form-control" onchange="updateCurrencySymbol()">
+                        <option value="DZD">دينار جزائري (DZD)</option>
                         <option value="SAR">ريال سعودي (SAR)</option>
                         <option value="USD">دولار أمريكي (USD)</option>
                         <option value="EUR">يورو (EUR)</option>
                         <option value="AED">درهم إماراتي (AED)</option>
                         <option value="EGP">جنيه مصري (EGP)</option>
                         <option value="QAR">ريال قطري (QAR)</option>
-                        <option value="DZD">دينار جزائري (DZD)</option>
                         <option value="TND">دينار تونسي (TND)</option>
                         <option value="MAD">درهم مغربي (MAD)</option>
                         <option value="LYD">دينار ليبي (LYD)</option>
@@ -668,13 +668,13 @@
 
         function getCurrencySymbol(currency) {
             const symbols = {
+                'DZD': 'دينار',
                 'SAR': 'ريال',
                 'USD': '$',
                 'EUR': '€',
                 'AED': 'درهم',
                 'EGP': 'جنيه',
                 'QAR': 'ريال',
-                'DZD': 'دينار',
                 'TND': 'دينار',
                 'MAD': 'درهم',
                 'LYD': 'دينار'
